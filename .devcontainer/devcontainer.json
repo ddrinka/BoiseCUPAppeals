@@ -4,21 +4,13 @@
 	"onCreateCommand": ["/bin/bash", "-c", ".devcontainer/on_create.sh"],
 	"updateContentCommand": ["/bin/bash", "-c", ".devcontainer/on_update.sh"],
 	"postCreateCommand": "",
-	"mounts":[
-		"source=${env:HOME}${env:USERPROFILE}/.aws,target=/home/vscode/.aws,type=bind",
-		"source=${env:HOME}${env:USERPROFILE}/.secrets/boise_cup,target=/home/vscode/.secrets/boise_cup,type=bind"
-	],
-	"remoteEnv": {
-		"AWS_PROFILE": "sdrinka"
-	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"ms-toolsai.jupyter",
-				"amazonwebservices.aws-toolkit-vscode"
+				"ms-toolsai.jupyter"
 			]
 		}
 	}
