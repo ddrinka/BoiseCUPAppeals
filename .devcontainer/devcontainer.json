@@ -1,8 +1,8 @@
 {
 	"name": "Python",
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
-	//"onCreateCommand": ["/bin/bash", "-c", ".devcontainer/on_create.sh"],
-	//"updateContentCommand": ["/bin/bash", "-c", ".devcontainer/on_update.sh"],
+	"onCreateCommand": ["/bin/bash", "-c", ".devcontainer/on_create.sh"],
+	"updateContentCommand": ["/bin/bash", "-c", ".devcontainer/on_update.sh"],
 	"postCreateCommand": "",
 	"mounts":[
 		"source=${env:HOME}${env:USERPROFILE}/.aws,target=/home/vscode/.aws,type=bind",
