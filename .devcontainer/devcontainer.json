@@ -18,8 +18,7 @@
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
 				"ms-toolsai.jupyter",
-				"amazonwebservices.aws-toolkit-vscode",
-				"humao.rest-client"
+				"amazonwebservices.aws-toolkit-vscode"
 			]
 		}
 	}
